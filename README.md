@@ -67,4 +67,4 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 ## Install Codeigniter 4
 Untuk langkah awal kita perlu menginstall codeigniter 4 terlebih dahulu, dalam contoh ini kita install codeigniter 4 dalam folder dengan nama pegawai.
 
-karena dalam contoh ini kita gunakan xampp, dan secara default untuk web direktori xampp berada di C:/xampp/htdocs, jadi silahkan masuk kedalam folder tersebut, melalui terminal, lalu berikutnya ketikkan perintah seperti gambar dibawah ini :
+karena dalam contoh ini kita gunakan `xampp,` dan secara default untuk web direktori `xampp` berada di `C:/xampp/htdocs,` jadi silahkan masuk kedalam folder tersebut, melalui terminal, lalu berikutnya ketikkan perintah seperti gambar dibawah ini :

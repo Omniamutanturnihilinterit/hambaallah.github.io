@@ -99,20 +99,41 @@ dengan nama Pegawai, buka file tersebut, dan isi dengan code seperti berikut ini
 ![image](https://user-images.githubusercontent.com/92959023/152558971-714f5f33-4eb4-4a8b-8442-a2a8ddb01c86.png)
 ![image](https://user-images.githubusercontent.com/92959023/152559087-fdb5efd1-b22b-4b26-9ba2-e9a4b0b5854e.png)
 
-Perintah diatas digunakan untuk membuat sebuah tabel dengan nama pegawai, yang berisi kolom antara lain :
+Perintah diatas digunakan untuk membuat sebuah tabel dengan nama `pegawai`, yang berisi kolom antara lain :
 
-id_pegawai (Integer – Auto Increment – Primary Key)
+`id_pegawai (Integer – Auto Increment – Primary Key)`
 
-nama (Varchar 255)
+`nama (Varchar 255)`
 
-jenis_kelamin (Enum[‘pria’,’wanita’])
+`jenis_kelamin (Enum[‘pria’,’wanita’])`
 
-no_telp (Varchar 100)
+`no_telp (Varchar 100)`
 
-email (Varchar 100)
+`email (Varchar 100)`
 
-alamat (Varchar 255)
+`alamat (Varchar 255)`
 
-created_at (Date Time)
+`created_at (Date Time)`
 
-updated_at (Date Time)
+`updated_at (Date Time)`
+
+## Membuat Database
+
+Setelah anda menuliskan perintah didalam migration untuk kebutuhan membuat tabel di database, berikutnya kita akan membuat database, didalam database ini akan kita buat tabel didalamnya dengan menggunakan perintah migration yang baru saja kita buat, langkah – langkahnya adalah sebagai berikut :
+
+Silahkan akses alamat `localhost/phpmyadmin` di browser, tapi sebelum itu jangan lupa untuk mengaktifkan service `apache` dan `MySQL`, lalu berikutnya silahkan klik menu Database untuk membuat database baru.
+
+![image](https://user-images.githubusercontent.com/92959023/152560174-a0a53097-127b-43d1-bf46-52a0737e9c7f.png)
+
+Berikutnya dibagian menu database silahkan `masukkan nama database` yang ingin dibuat.., dalam contoh
+ini nama database adalah `pegawai`, lalu kita klik tombol Create
+
+![image](https://user-images.githubusercontent.com/92959023/152560484-1908a381-359d-4dd7-a028-9a355759b47a.png)
+
+## Setting Codeigniter 4 agar dapat terkoneksi dengan database
+
+
+Setelah kita membuat database, dalam contoh ini adalah database `pagawai`, berikutnya kita akan setting
+codeigniter agar dapat terkoneksi dengan database, langkah – langkahnya adalah sebagai berikut :
+
+didalam folder dari project codeigniter4 terdapat file dengan nama `env` silahkan `rename` menjadi `.env`

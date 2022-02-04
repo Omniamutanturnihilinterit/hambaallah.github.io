@@ -76,3 +76,22 @@ Sehingga gambarnya seperti dibawah ini :
 ![image](https://user-images.githubusercontent.com/92959023/152554136-7b109e36-9305-43a9-89ac-818adb021a21.png)
 
 lalu tekan enter, tunggu hingga proses instalasi selesai.. 
+
+## Membuat Migration
+
+Berikutnya kita akan membuat bagian migration, karena nantinya kita akan buat `tabel di database,` karena dalam contoh ini kita akan membuat crud untuk data pegawai, maka nantinya kita akan buat tabel didatabase dengan nama pegawai juga, untuk mempermudah pemahaman.
+
+baik langkah – langkah untuk proses pembuatan migration adalah sebagai berikut :
+
+![image](https://user-images.githubusercontent.com/92959023/152555102-7894c0b7-814e-4d69-b5e7-db218b7b6ebc.png)
+
+Silahkan buka terminal dan masuk kedalam direktori : `C:\Xampp\htdocs\pegawai,` lalu tuliskan perintah
+
+`php spark migrate:create Pegawai`
+
+lalu tekan enter
+
+![image](https://user-images.githubusercontent.com/92959023/152555541-fdae61fa-7fa5-48c7-b9e9-a937546a827a.png)
+
+Lalu akan terbuat sebuah file didalam folder `app/Database/Migrations`, nama file tersebut akan diakhiri
+dengan nama Pegawai, buka file tersebut, dan isi dengan code seperti berikut ini :

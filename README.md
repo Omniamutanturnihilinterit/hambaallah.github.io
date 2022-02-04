@@ -137,3 +137,8 @@ Setelah kita membuat database, dalam contoh ini adalah database `pagawai`, berik
 codeigniter agar dapat terkoneksi dengan database, langkah – langkahnya adalah sebagai berikut :
 
 didalam folder dari project codeigniter4 terdapat file dengan nama `env` silahkan `rename` menjadi `.env`
+
+![image](https://user-images.githubusercontent.com/92959023/152561304-3e1632dd-9bd8-4912-96b5-9616df32b787.png)
+
+berikutnya buka file `.env` tersebut dan edit code didalamnya, untuk konfigurasi database berada pada line 52
+– 56, hilangkan tanda # untuk mengaktifkan konfigurasi tersebut.

@@ -70,4 +70,9 @@ Untuk langkah awal kita perlu menginstall codeigniter 4 terlebih dahulu, dalam c
 karena dalam contoh ini kita gunakan `xampp,` dan secara default untuk web direktori `xampp` berada di `C:/xampp/htdocs,` jadi silahkan masuk kedalam folder tersebut, melalui terminal, lalu berikutnya ketikkan perintah seperti gambar dibawah ini :
 
 `composer create-project codeigniter4/appstarter pegawai`
+
 Sehingga gambarnya seperti dibawah ini :
+
+![image](https://user-images.githubusercontent.com/92959023/152554136-7b109e36-9305-43a9-89ac-818adb021a21.png)
+
+lalu tekan enter, tunggu hingga proses instalasi selesai.. 

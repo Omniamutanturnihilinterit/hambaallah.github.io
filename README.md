@@ -96,17 +96,17 @@ lalu tekan enter
 Lalu akan terbuat sebuah file didalam folder `app/Database/Migrations`, nama file tersebut akan diakhiri
 dengan nama Pegawai, buka file tersebut, dan isi dengan code seperti berikut ini :
 
-`<?php
+`<?php`
  
-namespace App\Database\Migrations;
+`namespace App\Database\Migrations;`
  
-use CodeIgniter\Database\Migration;
+`use CodeIgniter\Database\Migration;`
  
-class Pegawai extends Migration
-{
-	public function up()
-	{
-		$this->forge->addField([
+`class Pegawai extends Migration`
+`{`
+	`public function up()`
+	`{`
+		`$this->forge->addField([`
 			'id_pegawai'          => [
 				'type'           => 'INT',
 				'constraint'     => 11,

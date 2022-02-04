@@ -102,10 +102,17 @@ dengan nama Pegawai, buka file tersebut, dan isi dengan code seperti berikut ini
 Perintah diatas digunakan untuk membuat sebuah tabel dengan nama pegawai, yang berisi kolom antara lain :
 
 id_pegawai (Integer – Auto Increment – Primary Key)
+
 nama (Varchar 255)
+
 jenis_kelamin (Enum[‘pria’,’wanita’])
+
 no_telp (Varchar 100)
+
 email (Varchar 100)
+
 alamat (Varchar 255)
+
 created_at (Date Time)
+
 updated_at (Date Time)

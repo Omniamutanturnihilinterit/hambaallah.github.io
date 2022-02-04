@@ -98,3 +98,14 @@ dengan nama Pegawai, buka file tersebut, dan isi dengan code seperti berikut ini
 
 ![image](https://user-images.githubusercontent.com/92959023/152558971-714f5f33-4eb4-4a8b-8442-a2a8ddb01c86.png)
 ![image](https://user-images.githubusercontent.com/92959023/152559087-fdb5efd1-b22b-4b26-9ba2-e9a4b0b5854e.png)
+
+Perintah diatas digunakan untuk membuat sebuah tabel dengan nama pegawai, yang berisi kolom antara lain :
+
+id_pegawai (Integer – Auto Increment – Primary Key)
+nama (Varchar 255)
+jenis_kelamin (Enum[‘pria’,’wanita’])
+no_telp (Varchar 100)
+email (Varchar 100)
+alamat (Varchar 255)
+created_at (Date Time)
+updated_at (Date Time)

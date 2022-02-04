@@ -142,3 +142,6 @@ didalam folder dari project codeigniter4 terdapat file dengan nama `env` silahka
 
 berikutnya buka file `.env` tersebut dan edit code didalamnya, untuk konfigurasi database berada pada line 52
 – 56, hilangkan tanda # untuk mengaktifkan konfigurasi tersebut.
+
+![image](https://user-images.githubusercontent.com/92959023/152561770-02c1e53a-65eb-432c-9621-59a551831f2f.png)
+

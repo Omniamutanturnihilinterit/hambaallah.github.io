@@ -107,7 +107,7 @@ dengan nama Pegawai, buka file tersebut, dan isi dengan code seperti berikut ini
 	`public function up()`
 	`{`
 		`$this->forge->addField([`
-			'id_pegawai'          => [
+			`'id_pegawai'`          `=> [`
 				'type'           => 'INT',
 				'constraint'     => 11,
 				'unsigned'       => true,

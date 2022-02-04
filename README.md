@@ -63,3 +63,5 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - xml (enabled by default - don't turn it off)
 
 # Tutorial Codeigniter 4 - Cara Membuat CRUD dengan Codeigniter 4
+
+## Install Codeigniter 4

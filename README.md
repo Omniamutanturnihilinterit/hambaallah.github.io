@@ -145,3 +145,10 @@ berikutnya buka file `.env` tersebut dan edit code didalamnya, untuk konfigurasi
 
 ![image](https://user-images.githubusercontent.com/92959023/152561770-02c1e53a-65eb-432c-9621-59a551831f2f.png)
 
+Keterangan :
+
+`hostname adalah alamat server dari database`
+`database adalah nama database yang barusan kita buat, jadi kita isi nilainya dengan nama pegawai`
+`username adalah nama user dari database dalam contoh ini adalah root`
+`password adalah password dari database dalam contoh ini saya biarkan kosong, karena default dari password user root di xampp itu kosong`
+`DBDriver saya biasakan default yaitu MySQLi`
